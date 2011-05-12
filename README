@@ -1,0 +1,10 @@
+Version 0.02 (14/04/2011)
+* Ajout de la classe gsolver.Gsolver pour implémenter une méthode de résolution
+* Ajout de la classe MySolver (default package) qui est un exemple d'implémentation d'une méthode de recherche aléatoire de solutions. MySolver hérite de GSolver. La logique de la procédure de recherche de solution doit être implémentée dans la méthode "void solve()" qui est héritée de GSolver.
+* Ajout d'une classe gio.GLog permettant d'afficher et d'enregistrer simultanément dans un fichier de log les différents messages de l'application (dossier "log")
+* Amélioration de la méthode d'afficahge d'une GSupplyLinkSolution (void toString())
+* Suppression des attributs inutiles de GJobVariable.
+
+Version 0.01 (13/04/2011)
+Pour lancer l'application test, qui charge et affiche une instance du challenge AG41 ainsi que 2 solutions, faire :
+script/run 
